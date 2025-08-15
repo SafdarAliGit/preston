@@ -1,5 +1,5 @@
 frappe.ui.form.on("Payment Entry", {
-  set_total_allocated_amount: function(frm) {
+  set_difference_amount: function(frm) {
     calculate_total_outstanding_amount(frm);
   },
   references_remove: function(frm) {
